@@ -7,10 +7,14 @@
 }
 
 .projects h2 {
-  color: #fff;
-  font-size: 3rem;
-  color:#e65100;
-  text-align: center;
+  background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text;  
+    font-size: 4rem;
+    font-family: 'Lucian', sans-serif;
+    text-align: center;
+    text-align: center;
 }
 
 a .projects .projects-img {
@@ -180,5 +184,16 @@ a .projects .projects-img {
     border-bottom-left-radius: 13%;
     border-bottom-right-radius: 13%;
   }  
+  .projects h2 {
+    background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+      -webkit-background-clip: text;
+      color: transparent; 
+      background-clip: text;  
+      font-size: 7rem;
+      font-family: 'Lucian', sans-serif;
+      text-align: center;
+      text-align: center;
+  }
+
 
 }

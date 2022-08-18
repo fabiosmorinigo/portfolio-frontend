@@ -5,8 +5,8 @@ const About = () => {
   return (
     <Fragment>
     <section className="about" id="about">
-      <h2>About me 🧑🏻‍💻</h2>
-      <p>I am passionate about technology, I love to learn new technological tools & implement them. I would love to be part of a technology company, but I am also open to other possibilities.</p>
+      <h2>About me</h2>
+      <p>Passionate about technology, I am constantly learning and developing projects.</p>
     </section>
     </Fragment>
   )

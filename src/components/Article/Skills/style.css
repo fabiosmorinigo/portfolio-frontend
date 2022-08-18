@@ -1,6 +1,6 @@
 
 .skills {
-  width: 90%;
+  width: 50%;
   min-width: 320px;
   margin: 0 auto;
   margin-top: 30px;
@@ -8,9 +8,13 @@
 }
 
 .skills h2 {
-  font-size: 3rem;
-  color: #e65100;
-  text-align: center;
+  background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text;  
+    font-size: 4rem;
+    font-family: 'Lucian', sans-serif;
+    text-align: center;
 }
 
 .skills__img {
@@ -68,7 +72,6 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  animation: moveRight  10s infinite linear;
 }
 
 .secondCapa {
@@ -78,7 +81,6 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  animation: moveLeft  10s infinite linear;
 }
 
 .threeCapa {
@@ -88,32 +90,6 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  animation: moveRight  10s infinite linear;
-}
-
-/* ANIMACION LEFT */
-@keyframes moveRight {
-  0% {
-    transform: translateX(0%);
-  }
-  50% {
-    transform: translateX(5%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-/* ANIMACION RIGHT */
-@keyframes moveLeft {
-  0% {
-    transform: translateX(0%);
-  }
-  50% {
-    transform: translateX(-5%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
 }
 
 
@@ -133,6 +109,15 @@
 
   .skills .firstCapa .iconSkillSize {
     font-size: 10rem;
+  }
+  .skills h2 {
+    background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+      -webkit-background-clip: text;
+      color: transparent; 
+      background-clip: text;  
+      font-size: 7rem;
+      font-family: 'Lucian', sans-serif;
+      text-align: center;
   }
 
 }

@@ -36,7 +36,7 @@ const Projects = () => {
 
   return (
     <section className='projects' data-aos="zoom-in-up" id='projects'>
-      <h2>Projects 💼</h2>
+      <h2>Projects</h2>
 
       <section className="items" id='slider'>
 

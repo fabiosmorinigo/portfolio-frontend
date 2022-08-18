@@ -3,10 +3,7 @@
   min-width: 320px;
   height: 80vh;
   padding-top: 100px;
-  background-image: url('../../../assets/media/img/background.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
 }
 .home h2 {
   text-align: center;
@@ -17,7 +14,12 @@
   padding-top: 60px;
 }
 .home h2 .highlighted {
-  color: #e65100;
+  background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+  -webkit-background-clip: text;
+  color: transparent; 
+  background-clip: text;  
+  font-size: 4rem;
+  font-family: 'Lucian', sans-serif;
 }
 .sidebar {
   width: 100%;
@@ -45,6 +47,10 @@
   border-radius: 50%;
   display: grid;
   place-items: center;
+  background-image: url('../../../assets/media/img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .backgroundRotate {
@@ -89,5 +95,13 @@ animation: rotate 1s infinite linear;
   .home h2 {
     font-size: 8rem;
     padding-top: 30px;
+  }
+  .home h2 .highlighted {
+    background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text;  
+    font-size: 7rem;
+    font-family: 'Lucian', sans-serif;
   }
 }

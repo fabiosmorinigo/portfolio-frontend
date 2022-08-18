@@ -9,8 +9,13 @@
 }
 
 .contact h2 {
-  color: #e65100;
-  font-size: 3rem;
+  background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+  -webkit-background-clip: text;
+  color: transparent; 
+  background-clip: text;  
+  font-size: 4rem;
+  font-family: 'Lucian', sans-serif;
+  text-align: center;
   text-align: center;
 }
 
@@ -57,6 +62,17 @@
     font-size: 2.5rem;
     width: 50%;
     margin: 0 auto;
+  }
+
+  .contact h2 {
+    background-image: linear-gradient(to right top, #e65100, #e84a07, #eb430e, #ed3a14, #ef3019, #f1212e, #f21040, #f00050, #e40070, #c90092, #9900b4, #342ccf);
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-clip: text;  
+    font-size: 7rem;
+    font-family: 'Lucian', sans-serif;
+    text-align: center;
+    text-align: center;
   }
 
 }
