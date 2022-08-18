@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hello, this is my portfolio project developed with React">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.18e7aa5d.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABAtJREFUWEe9l31MG3UYx7/P3ZXy2mRDHCG+JsxMR7YVkpUxRjaNCgmQDLewLcSYSKIRF3wfmkUIy6KJaBg4o5vZ1G6wYacmRRd10doXpGtZGTLMnIpr1Di2mCyUAqV3jymDpTSFHqXz9+fdc9/v576/5567I9zixV36DSBBD5GsVOUejLSjW+XPpoJVAFoBPDrjIdt+FzrrTyVnARiBpDR4HI6/Ew7A7gINLmMPGA0gnDjqFG19XmlPY2ng/qx0RtsPGnx0VhNiMnqctscTCsCmtavB0jEQJn+9Jj6//ai2ioDnAEh3L1dwqHoSYRBfe5y20oQAMEAw5deB0AzQ/uJ3kh3+oPAxgPvCt/iuZQoO77gBYR6U3qxscr66ZAD+ZE0aUjVHAKyGgp35b6U8AoHeADCdc+SaSYKlJGXd8l3nBpYEwB15K5Ck/QqAt+WM9qkOj/gegMdiNXZ2BnefPmOvCNXFDcDHDDqkBB1g5J2+INS89qW2gYjyYpkDCMqyrB9w90w/kvEDhPYc1OYYFj27Tdo7AdyuwhwMtPQ7bS/P1sYP0AWx7MONNVeuC+8DSFZjDuAXIejX9/X1+ZcMUFxSUjc2yQcAiCrNp1iRN/a7elzh9XElMPljedPFP+XGuoNj8I2zOn+FX/K47G8veRQHneVbRZE+Cwn9NByESohTHqdtOxBqgblrUQkUFBSkZq9I725/Jm3Lvdk3ko8FwcyDgVRpw5DF4osWlWqAkLkipZoBPJipIxyqT4cKiBGZqXDgrHV4vn1SBZCbW6bNyBw1A/TwrNBtOsIHkRDvjsE3cTPlCVbooX6XtWehJlEDQHrDpg4AOyKFFoCQQ/Uep80Uq0NjAugNxfsA2jufUCTEQKgx28eetVutB2OZx5yE+YUl1czcGWtihkMEAmjUFpmb1ZgvCJBn2LRGw+gBIU2NWE6m8H3XXl1bWpH5CzX1C07CXINBl4EkN4CVKsW+E4L+ivARq/K66C+jdeuLjxPRLjUizPhGlP1b4zGPugVrC0uqBeYTaszB3Dnp+/eJoaGhgKr6KEVznoJ7Nm9OXjYu/wYgJ4YgA7zf47S/Hm28LgZmDoDdWFrZbPR/fvU6C/OKMMZIoCfP9VpPLsYo5iTk3jIdRGnQe1XOqW310bXoEJemgG2DTttAIszn9AC7y1sBqg8d9I4ocm3raCSE0S8pdRcdjtFEmd8EYE/5Ssh0IfxL1ntFlmsPTCfxj0L0wvkERR4JP90D7KowglATcfJy71Bw984j49/+YbFMJPKuw7WIz1fdgcDUMAjSzIkAwO1ITmmivE+jvsMTCUO9r1S++MAWbsnIwlToXw4C7yN996VEmiykRZanK39OScfh9VXKSSrq/uv/Mp71+Q8cBKYwvIhPhgAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAeRJREFUOE9jZCAB/F9rZMHwn6Hg1RfG024zuB///vRmAyMx+v8v0uNm4GStPvuUib9hO5t5rdsv49OPmBlmn2QLJ2jA/1XGugxMDFlxSzjeX3nOlM/AwMDFzvKfYULQT4afv//p4TXg/1pDux8/mcptJnF++PefMQrZtWxM/7efPH7EC68BN2cYF5Vv5Kx8+I5RBM2r3/4zMBpcOHnoNk4Dvh/3UMib9nPnmVt/1DDC6T9D5vlTh2eAxHEZwHRiqcdBHXkWm+wpXxgu3f+LbMbi8ycPx8EEsBnAZGhmO4+VhSG+K4WbwUSNhQFuyH+G4++5mJ0eHDjwA6cBBua2XYwMDKUgBazMDAwwQwpnfL115uofm/PnD79Gdg6KCwzNbOIYGBkXIisAGTIxk/uIhRJTDKP1tofo4QE3QNfYUpeFheUkAwMDJ7Ki//8ZFl44dTiJgYHhH7ZEBzOAycDM9gwjI4MhmubuC6cOlzMwMPzHlWLBBnw65OVfOuf7ulM3/zBBFX5n+P8/4/ypI4sIJXXG/8dCORnYftz8+fu/TP70r/9P3vhz8d+/v3GXzhy7QkgzOB38P+Obx8DAMJGBgeHR56//cvnst27B5V+sYXC103e9ljPDfoZfHLMZrVZ/J8ZWZDUAaXi1ObtV/JIAAAAASUVORK5CYII=">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">  
+    <title>Fabio Sosa | Portfolio</title>
+    <script type="module" crossorigin src="/assets/index.eaa4741c.js"></script>
+    <link rel="stylesheet" href="/assets/index.5ab793cb.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script src="https://kit.fontawesome.com/2392c0aa52.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
