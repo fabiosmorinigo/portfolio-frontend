@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  min-width: 320px;
+  position: fixed;
+  top: 0;
+  padding: 0 10px;
+  padding-top: 10px;
+  background-color: #000;
+  z-index: 2;
+}
+.header .header__showIconMenuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .hiddeIconMenuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: 'Lucian', sans-serif;
+}
+.header .showIconMenu {
+  color: #e65100;
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header .hiddeIconMenu {
+  display: none;
+}
+.showIconClose {
+  background-color: #e65100;
+  color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  animation: rotate infinite 10s linear;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.hiddeIconClose {
+  display: none;
+  visibility: hidden;
+}

@@ -1,0 +1,117 @@
+
+.skills {
+  width: 90%;
+  min-width: 320px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: auto;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  color: #e65100;
+  text-align: center;
+}
+
+.skills__img {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.skillItems h3 {
+  color: #fff;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.iconSkillSize {
+  font-size: 7rem;
+}
+
+.html5 {
+  color: #F06529;
+}
+.css3 {
+  color: #66D3FA;
+}
+.javascript {
+  color: #F0DB4F;
+}
+.git {
+  color: #CC3534;
+}
+.github {
+  color: #fff;
+}
+.sass {
+  color: #CD6799;
+}
+.react {
+  color: #61DBFB;
+}
+.typescript {
+  width: 70px;
+  height: 70px;
+}
+.npm {
+  color: #CC3534;
+}
+
+
+.firstCapa {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  animation: moveRight  10s infinite linear;
+}
+
+.secondCapa {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  animation: moveLeft  10s infinite linear;
+}
+
+.threeCapa {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  animation: moveRight  10s infinite linear;
+}
+
+/* ANIMACION LEFT */
+@keyframes moveRight {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+/* ANIMACION RIGHT */
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

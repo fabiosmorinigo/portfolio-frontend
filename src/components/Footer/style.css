@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  position: fixed;
+  bottom: 0;
+  background-color: #000;
+  height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.footer .social {
+  font-size: 3rem;
+}
+a .twitter{
+  color: #42A5F5;
+}
+a .instagram {
+  color: #F44336;
+}
+a .whatsapp {
+  color: #76FF03;
+}

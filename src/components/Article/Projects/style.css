@@ -1,0 +1,135 @@
+.projects {
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  margin-top: 30px;
+  min-height: 50vh;
+}
+
+.projects h2 {
+  color: #fff;
+  font-size: 3rem;
+  color:#e65100;
+  text-align: center;
+}
+
+a .projects .projects-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a .projects .projects-img {
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.touch {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 3rem;
+  animation: touch 1s infinite linear;
+}
+@keyframes touch {
+  0% {
+    transform: translateZ(0);
+    background-color: red;
+    border-radius: 50%;
+  }
+  50% {
+    transform: translateZ(100px);
+    color: green;
+    background-color: green;
+    border-radius: 50%;
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+.projects .items {
+  text-align: center;
+  margin-top: 50px;
+  height: 50vh;
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(200px, 1fr);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-left: 100px;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.projects .items h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.projects .items .projects-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.projects .items p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.7rem;
+}
+
+.readMore {
+  display: block;
+}
+
+.hiddeReadMore {
+  display: none;
+}
+
+.btn {
+  width: auto;
+  padding: 10px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: orange;
+  color: #000;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 50%;
+  font-size: 4rem;
+  color: #000;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  font-size: 4rem;
+  color: #000;
+  right: 0px;
+  border-radius: 50%;
+  z-index: 1;
+}
