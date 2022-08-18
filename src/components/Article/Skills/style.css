@@ -115,3 +115,24 @@
     transform: translateX(0%);
   }
 }
+
+
+
+@media screen and (min-width: 1024px ) {
+  .skills {
+    margin-top: 200px;
+  }
+
+  .skills h2 {
+    font-size: 5rem;
+  }
+
+  .skills .firstCapa {
+    margin-top: 100px;
+  }
+
+  .skills .firstCapa .iconSkillSize {
+    font-size: 10rem;
+  }
+
+}

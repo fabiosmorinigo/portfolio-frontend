@@ -17,7 +17,7 @@ AOS.init({
 
 const Skills = () => {
   return (
-    <section className="skills" data-aos="fade-right">
+    <section className="skills" data-aos="fade-right" id='skills'>
       <h2>Skills ⚡️</h2>
       <section className="skills__img">
         <div className="firstCapa">

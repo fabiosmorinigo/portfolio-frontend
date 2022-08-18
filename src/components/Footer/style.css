@@ -23,3 +23,18 @@ a .instagram {
 a .whatsapp {
   color: #76FF03;
 }
+
+
+@media screen and (min-width:768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 70%;
+    left: 10px;
+    width: 30px;
+    min-width: auto;
+    height: 100px;
+    background-color: transparent;
+  }
+}

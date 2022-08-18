@@ -52,3 +52,14 @@
   display: none;
   visibility: hidden;
 }
+
+
+@media screen and (min-width: 1024px) {
+  .header .showIconMenu {
+    display: none;
+  }
+  .header h1 {
+    font-size: 5rem;
+  }
+
+}

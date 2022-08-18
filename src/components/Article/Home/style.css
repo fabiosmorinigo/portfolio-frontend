@@ -82,3 +82,12 @@ animation: rotate 1s infinite linear;
     color: #fff;
   }
 }
+
+
+
+@media screen and (min-width: 1024px) {
+  .home h2 {
+    font-size: 8rem;
+    padding-top: 30px;
+  }
+}
